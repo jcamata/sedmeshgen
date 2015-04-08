@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="contrib">
+        <df name="laspack">
+          <df name="src">
+            <in>eigenval.C</in>
+            <in>errhandl.C</in>
+            <in>factor.C</in>
+            <in>itersolv.C</in>
+            <in>matrix.C</in>
+            <in>mlsolv.C</in>
+            <in>operats.C</in>
+            <in>precond.C</in>
+            <in>qmatrix.C</in>
+            <in>qvector.C</in>
+            <in>rtc.C</in>
+          </df>
+        </df>
+      </df>
+      <df name="src">
+        <in>edgecfd_writer.cpp</in>
+        <in>equations_system.cpp</in>
+        <in>fem_functions.cpp</in>
+        <in>fsi.cpp</in>
+        <in>gmsh.cpp</in>
+        <in>mesh.cpp</in>
+        <in>mesh_optimize.cpp</in>
+        <in>navier_stokes.cpp</in>
+        <in>tetgen_meshing.cpp</in>
+      </df>
+      <in>main.cpp</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+    <itemPath>Make.common</itemPath>
+  </logicalFolder>
+  <sourceFolderFilter>^(nbproject)$</sourceFolderFilter>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>false</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <flagsDictionary>
+        <element flagsID="0" commonFlags="-O2"/>
+      </flagsDictionary>
+      <codeAssistance>
+      </codeAssistance>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>${MAKE} -f Makefile</buildCommand>
+          <cleanCommand>${MAKE} -f Makefile clean</cleanCommand>
+          <executablePath>sedmesher</executablePath>
+        </makeTool>
+      </makefileType>
+      <item path="contrib/laspack/src/eigenval.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="contrib/laspack/src/errhandl.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="contrib/laspack/src/factor.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="contrib/laspack/src/itersolv.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="contrib/laspack/src/matrix.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="contrib/laspack/src/mlsolv.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="contrib/laspack/src/operats.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="contrib/laspack/src/precond.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="contrib/laspack/src/qmatrix.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="contrib/laspack/src/qvector.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <item path="contrib/laspack/src/rtc.C" ex="false" tool="1" flavor2="4">
+      </item>
+      <folder path="0/contrib">
+        <ccTool>
+          <incDir>
+            <pElem>../../local/include</pElem>
+            <pElem>/usr/local/lib/petsc/3.5.2/include</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <folder path="0/src">
+        <ccTool>
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>/usr/local/lib/petsc/3.5.2/include</pElem>
+            <pElem>../../local/include</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+            <pElem>.</pElem>
+          </incDir>
+        </ccTool>
+      </folder>
+      <item path="main.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+          <incDir>
+            <pElem>include</pElem>
+            <pElem>/usr/local/lib/petsc/3.5.2/include</pElem>
+            <pElem>../../local/include</pElem>
+            <pElem>/usr/include/glib-2.0</pElem>
+            <pElem>/usr/lib/x86_64-linux-gnu/glib-2.0/include</pElem>
+            <pElem>/usr/lib/openmpi/include</pElem>
+            <pElem>/usr/lib/openmpi/include/openmpi</pElem>
+          </incDir>
+        </ccTool>
+      </item>
+      <item path="src/edgecfd_writer.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/equations_system.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/fem_functions.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/fsi.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/gmsh.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/mesh.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/mesh_optimize.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/navier_stokes.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+      <item path="src/tetgen_meshing.cpp" ex="false" tool="1" flavor2="4">
+        <ccTool flags="0">
+        </ccTool>
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

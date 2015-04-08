@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="bin">
+      </df>
+      <df name="bkp">
+        <in>define.h</in>
+        <in>edgecfd_writer.cpp</in>
+        <in>edgecfd_writer.h</in>
+        <in>equations_system.cpp</in>
+        <in>equations_system.h</in>
+        <in>fem_functions.cpp</in>
+        <in>fem_functions.h</in>
+        <in>fsi.cpp</in>
+        <in>fsi.h</in>
+        <in>gmsh.cpp</in>
+        <in>gmsh.h</in>
+        <in>main.cpp</in>
+        <in>mesh.cpp</in>
+        <in>mesh.h</in>
+      </df>
+      <df name="build">
+        <df name="debug">
+        </df>
+        <df name="release">
+        </df>
+      </df>
+      <df name="contrib">
+        <df name="laspack">
+          <df name="include">
+            <in>copyrght.h</in>
+            <in>eigenval.h</in>
+            <in>elcmp.h</in>
+            <in>errhandl.h</in>
+            <in>factor.h</in>
+            <in>itersolv.h</in>
+            <in>laspack_config.h</in>
+            <in>lastypes.h</in>
+            <in>matrix.h</in>
+            <in>operats.h</in>
+            <in>precond.h</in>
+            <in>qmatrix.h</in>
+            <in>qvector.h</in>
+            <in>rtc.h</in>
+            <in>version.h</in>
+          </df>
+          <df name="src">
+            <in>eigenval.C</in>
+            <in>errhandl.C</in>
+            <in>factor.C</in>
+            <in>itersolv.C</in>
+            <in>matrix.C</in>
+            <in>mlsolv.C</in>
+            <in>mlsolv.h</in>
+            <in>operats.C</in>
+            <in>precond.C</in>
+            <in>qmatrix.C</in>
+            <in>qvector.C</in>
+            <in>rtc.C</in>
+          </df>
+          <in>sparsity_pattern.h</in>
+        </df>
+      </df>
+      <df name="data">
+        <df name="bacia_se">
+        </df>
+      </df>
+      <df name="dist">
+        <df name="Debug">
+          <df name="Cygwin_4.x-Windows">
+          </df>
+        </df>
+      </df>
+      <df name="include">
+        <in>define.h</in>
+        <in>edgecfd_writer.h</in>
+        <in>equations_system.h</in>
+        <in>fem_functions.h</in>
+        <in>fsi.h</in>
+        <in>gmsh.h</in>
+        <in>mesh.h</in>
+        <in>navier_stokes.h</in>
+      </df>
+      <df name="src">
+        <in>edgecfd_writer.cpp</in>
+        <in>equations_system.cpp</in>
+        <in>fem_functions.cpp</in>
+        <in>fsi.cpp</in>
+        <in>gmsh.cpp</in>
+        <in>mesh.cpp</in>
+        <in>mesh_optimize.cpp</in>
+        <in>navier_stokes.cpp</in>
+        <in>tetgen_meshing.cpp</in>
+      </df>
+      <in>main.cpp</in>
+    </df>
+    <itemPath>Make.common</itemPath>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
